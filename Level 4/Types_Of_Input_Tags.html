@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Different Types of Input Tags</title>
+</head>
+<body>
+        <form action="/contact-me">
+            Date: <input type="date"><br><!--Date-->
+            File: <input type="file"><br><!--File-->
+            Color: <input type="color"><br><!--Color-->
+            Price Range: <input type="range"><br><!--Range-->
+            Button: <input type="button" value="Click on me"><br><!--Button-->
+            Submit: <input type="submit"><br><!--Submit-->
+        </form><br>
+        <form action="/contact-me">
+            <!--Radio Tag-->
+            <label for="male">Male:</label>
+            <input type="radio" id="male" name="gender" value="male"><br>
+            <label for="female">Female:</label>
+            <input type="radio" id="female" name="gender" value="female"><br>
+            <label for="other">Other:</label>
+            <input type="radio" id="other" name="gender" value="other">
+        </form><br>
+        <form action="/contact-me">
+            <!--Checkbox Tag-->
+            <label for="apple">Apple:</label>
+            <input type="checkbox" id="apple" name="fruits" value="apple"><br>
+            <label for="banana">Banana:</label>
+            <input type="checkbox" id="banana" name="fruits" value="banana"><br>
+            <label for="orange">Orange:</label>
+            <input type="checkbox" id="orange" name="fruits" value="orange">
+        </form><br>
+        <!--Select Tag and Option Tag-->
+        <form>
+            <label for="country">Select your job location:</label>
+            <select id="country" name="countries">
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="UK">UK</option>
+                <option value="Australia">Australia</option>
+                <option value="Russia">Russia</option>
+                <option value="UAE">UAE</option>
+            </select>
+        </form><br>
+        <!--TextArea Tag-->
+        <form>
+            <textarea id="story" name="story" row="5" cols="30">
+                Write your own story
+            </textarea>
+        </form><br>
+</body>
+</html>
